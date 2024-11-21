@@ -1,18 +1,98 @@
-## Hi there 👋
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Front-End Brasil - Portando discussões feitas em grupos (Facebook, Google Groups, Slack, Disqus) para issues.</title>
+        <meta name="description" content="Website da Organização Front-End Brasil">
+        <meta name="keywords" content="front-end, frontend, comunidade, html, css, javascript, brasil">
+        <meta name="viewport" content="width=device-width">
+        <link type="text/plain" rel="author" href="humans.txt" />
+        <link href="//fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="assets/css/style.css">
+				<script src="assets/Ecmascript/scrolling.js"></script>
+    </head>
 
-<!--
-**s4br1n44/s4br1n44** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    <body>
+        <header class="header">
+            <div class="centered-parent">
+                <div class="centered-child">
+                    <img src="https://avatars0.githubusercontent.com/u/16963863?v=3&s=200.jpg" class="logo" alt="Front-End Brasil">
+                    <h3 class="lead-title">Portando discussões feitas em grupos (Facebook, Google Groups, Slack, Disqus) para issues.</h3>
+                    <nav class="nav-main">
+                        <ul class="nav-list">
+                            <li class="nav-item">
+                                <a class="nav-link btn" onclick="go( `#sobre` ); return false" href="#sobre">Sobre</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn" onclick="go( `#estrutura` ); return false" href="#estrutura">Estrutura</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn" onclick="go( `#sugestoes` ); return false" href="#sugestoes">Sugestões</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="content">
 
-Here are some ideas to get you started:
+            <!-- Sobre -->
+            <section class="section" id="sobre">
+                <h2 class="title">Sobre</h2>
+                <p><strong>Olá, seja bem-vindo!</strong></p>
+                <p>Alguns posts em grupos de front-end em redes sociais geram bastante conteúdo bacana que poderia ser disponibilizado de forma mais fácil.</p>
+                <p>A busca do Facebook em grupos, por exemplo, tem vários problemas. Discussões épicas foram perdidas, e pessoas que ingressam agora nos grupos não tem mais acesso a esses posts.</p>
+                <p>A ideia desse repositório é portar ou iniciar essas discussões nas issues. Estando no Github, fica mais fácil procurar respostas a perguntas já respondidas por esses grupos.</p>
+                <p>O objetivo maior é unificar todas as discussões em um só local e o Github foi o escolhido para isso.</p>
+            </section>
 
-- 🔭 I’m currently working on Alura in my school (idc about this, I need take out here fast).
-- 🌱 I’m currently learning java'script (nothing).
-- 👯 I’m looking to collaborate nothing, I´ḿ tired and very angry.
-- 🤔 I’m looking for help with everything, I realy don´t know how use this site.
-- 💬 Ask me about anyting, I have no ansawers.
-- 📫 How to reach me: don't reach me nothing.
-- 😄 Pronouns: she/her (I´m batman, wow).
-- ⚡ Fun fact: i don't like peoples and spiders but I like strawberryes and stars (so much).
-I paint and im learning music (Iḿ not good, btw)
---> 
-![](https://www.google.com/url?sa=i&url=https%3A%2F%2Fescolakids.uol.com.br%2Fciencias%2Flontra.htm&psig=AOvVaw01iEeosOosnO_tf1LCQ-Zi&ust=1723556711517000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLidwZ7L74cDFQAAAAAdAAAAABAE)
+            <!-- Estrutura -->
+            <section class="section" id="estrutura">
+                <h2 class="title">Estrutura</h2>
+                <nav class="nav-structure">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a class="nav-link btn" href="https://frontendbr.com.br/eventos" target="_blank">Eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn" href="https://github.com/frontendbr/forum" target="_blank">Fórum</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn" href="https://github.com/frontendbr/me-contrata" target="_blank">Me Contrata</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn" href="https://github.com/frontendbr/open-source" target="_blank">Open Source</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn" href="https://github.com/frontendbr/poste-mais" target="_blank">Poste Mais</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn" href="https://github.com/frontendbr/sugestoes" target="_blank">Sugestões</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn" href="https://github.com/frontendbr/vagas" target="_blank">Vagas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn" href="https://survey.frontendbr.com.br" target="_blank">Survey</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </section>
+
+            <!-- Sugestões -->
+            <section class="section" id="sugestoes">
+
+                <a href="https://github.com/frontendbr/sugestoes/issues" class="box">Clique aqui para enviar uma sugestão!</a>
+
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            <p>Copyright &copy; <script type="text/javascript">document.write(new Date().getFullYear())</script>. Made with coffee and love.</p>
+        </footer>
+
+    </body>
+</html>
+
